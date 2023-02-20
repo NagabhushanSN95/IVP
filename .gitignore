@@ -1,0 +1,8 @@
+.idea/
+Data/Veed/RenderedData/
+Data/Veed/PrecomputedPriors/
+Data/Veed/PreprocessedData/
+Data/SceneNet/RenderedData/
+Data/SceneNet/PrecomputedPriors/
+Data/SceneNet/PreprocessedData/
+Runs/

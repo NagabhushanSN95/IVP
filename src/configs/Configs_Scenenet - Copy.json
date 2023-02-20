@@ -1,0 +1,32 @@
+{
+    "trainer": "Trainer09",
+    "train_num": 3000,
+    "database_name": "SceneNet65",
+    "read_off_estimator": "Unet18",
+    "infiller": "Infiller55",
+    "losses": [
+        [
+            "MSE04",
+            1
+        ],
+        [
+            "SSIM04",
+            1
+        ],
+        [
+            "SmoothnessLoss12",
+            0.001
+        ]
+    ],
+    "database_dirpath": "../Data/Databases/SceneNet/Data",
+    "resume_training": true,
+    "num_epochs": 50,
+    "batch_size": 8,
+    "patch_size": 256,
+    "lr": 0.0001,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "sample_save_interval": 1,
+    "model_save_interval": 5,
+    "seed": 116
+}
